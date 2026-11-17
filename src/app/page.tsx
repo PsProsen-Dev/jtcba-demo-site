@@ -314,7 +314,7 @@ export default function Home() {
             ))}
           </div>
           <p className="mt-8 text-center leading-relaxed text-muted">
-            One-time setup ₹2,000 · 50% advance · Monthly billing · No lock-in
+            One-time setup ₹5,000 · 50% advance · Monthly billing · No lock-in
           </p>
           <p className="mx-auto mt-3 max-w-3xl rounded-lg border border-brand bg-brand-light px-5 py-4 text-center leading-relaxed">
             <strong>Please note:</strong> website, Google Business Profile and
@@ -442,7 +442,7 @@ export default function Home() {
             Photography on this page is AI-generated imagery made for this demo
             — no real academy photos have been used yet. Proposal prices:
             Starter ₹3,000/month, Growth ₹5,000/month, Premium ₹8,000/month,
-            Elite ₹12,000/month, plus one-time setup ₹2,000. Website, Google
+            Elite ₹12,000/month, plus one-time setup ₹5,000. Website, Google
             Business Profile and directories are not included in this price.
             © 2026 We Digital Mitra — Your Growth, Our Responsibility.
           </p>
