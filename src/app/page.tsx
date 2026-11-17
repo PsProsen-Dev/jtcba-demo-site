@@ -3,26 +3,16 @@ import Link from "next/link";
 
 const tiers = [
   {
-    name: "Starter",
-    price: "₹3,000",
+    name: "Growth",
+    price: "₹5,000",
     unit: "/month",
-    tagline: "For a clean, active presence.",
+    tagline: "For regular growth, reels and enquiries.",
     features: [
       "Facebook revival and new Instagram setup",
       "8 posts per month",
       "Stories",
       "Captions and hashtags",
       "WhatsApp enquiry call to action",
-    ],
-    recommended: false,
-  },
-  {
-    name: "Growth",
-    price: "₹5,000",
-    unit: "/month",
-    tagline: "For regular growth, reels and enquiries.",
-    features: [
-      "Everything in Starter",
       "4 reels per month",
       "Review drive",
       "Local hashtags and location tags",
@@ -281,7 +271,7 @@ export default function Home() {
             the wins, grow enquiries. We handle the posting — the academy
             focuses on coaching.
           </p>
-          <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {tiers.map((tier) => (
               <article
                 key={tier.name}
@@ -441,7 +431,7 @@ export default function Home() {
           <p className="mt-8 border-t border-white/15 pt-5 text-xs leading-relaxed text-white/60">
             Photography on this page is AI-generated imagery made for this demo
             — no real academy photos have been used yet. Proposal prices:
-            Starter ₹3,000/month, Growth ₹5,000/month, Premium ₹8,000/month,
+            Growth ₹5,000/month, Premium ₹8,000/month,
             Elite ₹12,000/month, plus one-time setup ₹5,000. Website, Google
             Business Profile and directories are not included in this price.
             © 2026 We Digital Mitra — Your Growth, Our Responsibility.
